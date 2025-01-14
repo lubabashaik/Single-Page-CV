@@ -5,53 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my Website</title>
-    <link>
-</head>
-
-<body>
-
-
 
     <style>
         * {
+            /* margin: 0px;
+            padding: 0px; */
             box-sizing: border-box;
         }
 
         header {
             display: flex;
             flex-direction: column;
-            align-items: center;
-            border: 2px solid black;
-
+            justify-content: center;
+            border: 5px solid black;
+            width: 500px;
+            margin: 100;
         }
 
-        
-        .shaik_lubaba{
+        .shaik_lubaba {
             border-bottom: 3px solid black;
         }
-        
-    </style>
-    <header>
-        <h1>RESUME</h1>
 
-        <h1 class="shaik_lubaba">SHAIK LUBABA</h1>
-        <p style="color: green;">junior Frontend Developer</p>
-        <p>123 Anandapeta Guntur, ST 12345</p>
-        <h2 style="color: green;">Skills</h2>
-        <p>HTML, CSS, Javascript,</p>
-        <h2 style="color: green;">Education</h2>
-        <P style="color: blue;">UCET, Perechela, Guntur</P>
-        <p>Started in 2018 to 2022</p>
-        <h2 style="color: green;">Experience</h2>
-        <p style="color: blue;">Company Name:Phoenix, HYD, Developer </p>
-        <P>Started in 2022 to 2025</P>
-        <ul>
-            <li> HTML</li>
-            <li> CSS</li>
-            <li> Javascript</li>
-        </ul>
-        <h2 style="color: green;"> Across the internet</h2>
-    </header>
+        .content {
+            display: flex;
+            justify-content: center;
+        }
+
+        div p {
+            margin: 1px;
+            padding: 1px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="content">
+        <header>
+            <ol>
+                <h1 class="shaik_lubaba">SHAIK LUBABA</h1>
+                <div>
+                    <h2 style="color: green;">Frontend Developer</h2>
+                    <p>city-Hyderabad</p>
+                    <p>ph.9703332240</p>
+                    <p>shaiklubi@gmail.com</p>
+                </div>
+
+                <div>
+                    <h2 style="color: green;">Skills</h2>
+                    <p> React.js, HTML, CSS, Javascript,</p>
+                </div>
+                <div>
+                    <h2 style="color: green;">Education</h2>
+                    <p style="color: blue;">U.C.E.T Collage,perechela,Guntur, Bachlors Degree.</p>
+                    <p>Intermediate in Sri chaitanya jnr Collage, Guntur </p>
+                    <p>SSC in Jain public School, Guntur</p>
+                </div>
+                <div>
+                    <h2 style="color: green;">Experience</h2>
+                    <p style="color: blue;">Trangla Innovations Pvt.Ltd,Hyderabad,FrontEnd Developer </p>
+                    <p>Month 2023 to 2024</p>
+                    <p>Skills-React.js, Javascript, HTML,CSS</p>
+                </div>
+
+                <div>
+                    <h2 style="color: green;"> Across the internet</h2>
+                    <a href="https://github.com/">Github</a>
+                </div>
+            </ol>
+        </header>
+    </div>
 </body>
 
 </html>
